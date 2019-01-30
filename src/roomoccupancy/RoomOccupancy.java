@@ -37,7 +37,7 @@ public class RoomOccupancy {
     public RoomOccupancy(int floorNumber, int roomNumber) {
         this.floorNumber = floorNumber;
         this.setRoomNumber(roomNumber);
-        peopleInRoom = 0;
+        this.peopleInRoom = 0;
     }
         
 
